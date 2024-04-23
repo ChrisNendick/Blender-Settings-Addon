@@ -26,7 +26,7 @@ class CustomPanel(bpy.types.Panel):
         layout.operator("object.simple_operator2", text="Realistic Renders", icon="RENDER_ANIMATION")
     
 #realistic render class 
-class SimpleOperator(bpy.types.Operator):n
+class SimpleOperator(bpy.types.Operator):
     bl_idname = "object.simple_operator2"
     bl_label = "Simple Operator"
 
